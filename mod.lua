@@ -1,7 +1,7 @@
 ﻿function data()
 return {
 	info = {
-		minorVersion = 1,
+		minorVersion = 2,
 		severityAdd = "NONE",
 		severityRemove = "WARNING",
 		name = _("mod_name"),
@@ -60,6 +60,8 @@ return {
 			["or_DBAG_rev_fake.lua"] = true,
 			["rev_fake.lua"] = true,
             ["30Jahre_fake.lua"] = true,
+            ["vr_fake.lua"] = true,
+            ["vr_ref_fake.lua"] = true,
 		}
 
 		local modelFilter = function(fileName, data)

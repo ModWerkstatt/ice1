@@ -61,73 +61,73 @@ return {
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 				    },
 				    {
-					    
+
 					    materials = { "vehicle/waggon/ICE1/Bvmz802/0-rumpf_klima.mtl", },
                         mesh = "vehicle/waggon/ICE1/Bvmz802.0/tritt_o_1_l.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 12.24571, 1.3587, 0.89728, 1, },
 				    },
 				    {
-					    
+
 					    materials = { "vehicle/waggon/ICE1/Bvmz802/0-rumpf_klima.mtl", },
                         mesh = "vehicle/waggon/ICE1/Bvmz802.0/tritt_o_1_r.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 12.24571, -1.3587, 0.89728, 1, },
 				    },
 				    {
-					    
+
 					    materials = { "vehicle/waggon/ICE1/Bvmz802/0-rumpf_klima.mtl", },
                         mesh = "vehicle/waggon/ICE1/Bvmz802.0/tritt_o_2_l.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.24568, 1.3587, 0.89728, 1, },
 				    },
 				    {
-					    
+
 					    materials = { "vehicle/waggon/ICE1/Bvmz802/0-rumpf_klima.mtl", },
                         mesh = "vehicle/waggon/ICE1/Bvmz802.0/tritt_o_2_r.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.24568, -1.3587, 0.89728, 1, },
 				    },
 				    {
-					    
+
 					    materials = { "vehicle/waggon/ICE1/Bvmz802/0-rumpf_klima.mtl", },
                         mesh = "vehicle/waggon/ICE1/Bvmz802.0/tritt_u_1_l.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 12.24571, 1.23495, 0.59676, 1, },
 				    },
 				    {
-					    
+
 					    materials = { "vehicle/waggon/ICE1/Bvmz802/0-rumpf_klima.mtl", },
                         mesh = "vehicle/waggon/ICE1/Bvmz802.0/tritt_u_1_r.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 12.24571, -1.23495, 0.59676, 1, },
 				    },
 				    {
-					    
+
 					    materials = { "vehicle/waggon/ICE1/Bvmz802/0-rumpf_klima.mtl", },
                         mesh = "vehicle/waggon/ICE1/Bvmz802.0/tritt_u_2_l.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.24568, 1.23495, 0.59676, 1, },
 				    },
 				    {
-					    
+
 					    materials = { "vehicle/waggon/ICE1/Bvmz802/0-rumpf_klima.mtl", },
                         mesh = "vehicle/waggon/ICE1/Bvmz802.0/tritt_u_2_r.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.24568, -1.23495, 0.59676, 1, },
 				    },
 				    {
-					    
+
 					    materials = { "vehicle/waggon/ICE1/Bvmz802/0-rumpf_klima.mtl", "vehicle/waggon/ICE1/Avmz801/scheibe.mtl", },
                         mesh = "vehicle/waggon/ICE1/Bvmz802.0/tur_1_l.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 12.80352, 1.47059, 1.4754, 1, },
 				    },
 				    {
-					    
+
 					    materials = { "vehicle/waggon/ICE1/Bvmz802/0-rumpf_klima.mtl", "vehicle/waggon/ICE1/Avmz801/scheibe.mtl", },
                         mesh = "vehicle/waggon/ICE1/Bvmz802.0/tur_1_r.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 12.80353, -1.47058, 1.4754, 1, },
 				    },
 				    {
-					    
+
 					    materials = { "vehicle/waggon/ICE1/Bvmz802/0-rumpf_klima.mtl", "vehicle/waggon/ICE1/Avmz801/scheibe.mtl", },
                         mesh = "vehicle/waggon/ICE1/Bvmz802.0/tur_2_l.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.8036, 1.47059, 1.4754, 1, },
 				    },
 				    {
-					    
+
 					    materials = { "vehicle/waggon/ICE1/Bvmz802/0-rumpf_klima.mtl", "vehicle/waggon/ICE1/Avmz801/scheibe.mtl", },
                         mesh = "vehicle/waggon/ICE1/Bvmz802.0/tur_2_r.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.8036, -1.47059, 1.4754, 1, },
@@ -194,73 +194,73 @@ return {
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 				    },
 				    {
-					    
+
 					    materials = { "vehicle/waggon/ICE1/Bvmz802/0-rumpf_or_DBAG.mtl", },
                         mesh = "vehicle/waggon/ICE1/Bvmz802.0/tritt_o_1_l.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 12.24571, 1.3587, 0.89728, 1, },
 				    },
 				    {
-					    
+
 					    materials = { "vehicle/waggon/ICE1/Bvmz802/0-rumpf_or_DBAG.mtl", },
                         mesh = "vehicle/waggon/ICE1/Bvmz802.0/tritt_o_1_r.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 12.24571, -1.3587, 0.89728, 1, },
 				    },
 				    {
-					    
+
 					    materials = { "vehicle/waggon/ICE1/Bvmz802/0-rumpf_or_DBAG.mtl", },
                         mesh = "vehicle/waggon/ICE1/Bvmz802.0/tritt_o_2_l.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.24568, 1.3587, 0.89728, 1, },
 				    },
 				    {
-					    
+
 					    materials = { "vehicle/waggon/ICE1/Bvmz802/0-rumpf_or_DBAG.mtl", },
                         mesh = "vehicle/waggon/ICE1/Bvmz802.0/tritt_o_2_r.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.24568, -1.3587, 0.89728, 1, },
 				    },
 				    {
-					    
+
 					    materials = { "vehicle/waggon/ICE1/Bvmz802/0-rumpf_or_DBAG.mtl", },
                         mesh = "vehicle/waggon/ICE1/Bvmz802.0/tritt_u_1_l.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 12.24571, 1.23495, 0.59676, 1, },
 				    },
 				    {
-					    
+
 					    materials = { "vehicle/waggon/ICE1/Bvmz802/0-rumpf_or_DBAG.mtl", },
                         mesh = "vehicle/waggon/ICE1/Bvmz802.0/tritt_u_1_r.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 12.24571, -1.23495, 0.59676, 1, },
 				    },
 				    {
-					    
+
 					    materials = { "vehicle/waggon/ICE1/Bvmz802/0-rumpf_or_DBAG.mtl", },
                         mesh = "vehicle/waggon/ICE1/Bvmz802.0/tritt_u_2_l.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.24568, 1.23495, 0.59676, 1, },
 				    },
 				    {
-					    
+
 					    materials = { "vehicle/waggon/ICE1/Bvmz802/0-rumpf_or_DBAG.mtl", },
                         mesh = "vehicle/waggon/ICE1/Bvmz802.0/tritt_u_2_r.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.24568, -1.23495, 0.59676, 1, },
 				    },
 				    {
-					    
+
 					    materials = { "vehicle/waggon/ICE1/Bvmz802/0-rumpf_or_DBAG.mtl", "vehicle/waggon/ICE1/Bvmz802/scheibe.mtl", },
                         mesh = "vehicle/waggon/ICE1/Bvmz802.0/tur_1_l.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 12.80352, 1.47059, 1.4754, 1, },
 				    },
 				    {
-					    
+
 					    materials = { "vehicle/waggon/ICE1/Bvmz802/0-rumpf_or_DBAG.mtl", "vehicle/waggon/ICE1/Bvmz802/scheibe.mtl", },
                         mesh = "vehicle/waggon/ICE1/Bvmz802.0/tur_1_r.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 12.80353, -1.47058, 1.4754, 1, },
 				    },
 				    {
-					    
+
 					    materials = { "vehicle/waggon/ICE1/Bvmz802/0-rumpf_or_DBAG.mtl", "vehicle/waggon/ICE1/Bvmz802/scheibe.mtl", },
                         mesh = "vehicle/waggon/ICE1/Bvmz802.0/tur_2_l.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.8036, 1.47059, 1.4754, 1, },
 				    },
 				    {
-					    
+
 					    materials = { "vehicle/waggon/ICE1/Bvmz802/0-rumpf_or_DBAG.mtl", "vehicle/waggon/ICE1/Bvmz802/scheibe.mtl", },
                         mesh = "vehicle/waggon/ICE1/Bvmz802.0/tur_2_r.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.8036, -1.47059, 1.4754, 1, },
@@ -327,73 +327,73 @@ return {
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 				    },
 				    {
-					    
+
 					    materials = { "vehicle/waggon/ICE1/Bvmz802/0-rumpf_or_DBAG.mtl", },
                         mesh = "vehicle/waggon/ICE1/Bvmz802.0/tritt_o_1_l.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 12.24571, 1.3587, 0.89728, 1, },
 				    },
 				    {
-					    
+
 					    materials = { "vehicle/waggon/ICE1/Bvmz802/0-rumpf_or_DBAG.mtl", },
                         mesh = "vehicle/waggon/ICE1/Bvmz802.0/tritt_o_1_r.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 12.24571, -1.3587, 0.89728, 1, },
 				    },
 				    {
-					    
+
 					    materials = { "vehicle/waggon/ICE1/Bvmz802/0-rumpf_or_DBAG.mtl", },
                         mesh = "vehicle/waggon/ICE1/Bvmz802.0/tritt_o_2_l.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.24568, 1.3587, 0.89728, 1, },
 				    },
 				    {
-					    
+
 					    materials = { "vehicle/waggon/ICE1/Bvmz802/0-rumpf_or_DBAG.mtl", },
                         mesh = "vehicle/waggon/ICE1/Bvmz802.0/tritt_o_2_r.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.24568, -1.3587, 0.89728, 1, },
 				    },
 				    {
-					    
+
 					    materials = { "vehicle/waggon/ICE1/Bvmz802/0-rumpf_or_DBAG.mtl", },
                         mesh = "vehicle/waggon/ICE1/Bvmz802.0/tritt_u_1_l.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 12.24571, 1.23495, 0.59676, 1, },
 				    },
 				    {
-					    
+
 					    materials = { "vehicle/waggon/ICE1/Bvmz802/0-rumpf_or_DBAG.mtl", },
                         mesh = "vehicle/waggon/ICE1/Bvmz802.0/tritt_u_1_r.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 12.24571, -1.23495, 0.59676, 1, },
 				    },
 				    {
-					    
+
 					    materials = { "vehicle/waggon/ICE1/Bvmz802/0-rumpf_or_DBAG.mtl", },
                         mesh = "vehicle/waggon/ICE1/Bvmz802.0/tritt_u_2_l.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.24568, 1.23495, 0.59676, 1, },
 				    },
 				    {
-					    
+
 					    materials = { "vehicle/waggon/ICE1/Bvmz802/0-rumpf_or_DBAG.mtl", },
                         mesh = "vehicle/waggon/ICE1/Bvmz802.0/tritt_u_2_r.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.24568, -1.23495, 0.59676, 1, },
 				    },
 				    {
-					    
+
 					    materials = { "vehicle/waggon/ICE1/Bvmz802/0-rumpf_or_DBAG.mtl", "vehicle/waggon/ICE1/Bvmz802/scheibe.mtl", },
                         mesh = "vehicle/waggon/ICE1/Bvmz802.0/tur_1_l.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 12.80352, 1.47059, 1.4754, 1, },
 				    },
 				    {
-					    
+
 					    materials = { "vehicle/waggon/ICE1/Bvmz802/0-rumpf_or_DBAG.mtl", "vehicle/waggon/ICE1/Bvmz802/scheibe.mtl", },
                         mesh = "vehicle/waggon/ICE1/Bvmz802.0/tur_1_r.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 12.80353, -1.47058, 1.4754, 1, },
 				    },
 				    {
-					    
+
 					    materials = { "vehicle/waggon/ICE1/Bvmz802/0-rumpf_or_DBAG.mtl", "vehicle/waggon/ICE1/Bvmz802/scheibe.mtl", },
                         mesh = "vehicle/waggon/ICE1/Bvmz802.0/tur_2_l.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.8036, 1.47059, 1.4754, 1, },
 				    },
 				    {
-					    
+
 					    materials = { "vehicle/waggon/ICE1/Bvmz802/0-rumpf_or_DBAG.mtl", "vehicle/waggon/ICE1/Bvmz802/scheibe.mtl", },
                         mesh = "vehicle/waggon/ICE1/Bvmz802.0/tur_2_r.msh",
 					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.8036, -1.47059, 1.4754, 1, },
@@ -414,6 +414,7 @@ return {
 	metadata = {
 		availability = {
 			yearFrom = 2020,
+            yearTo = 2026,
 		},
 		cost = {
 			price = -1,
