@@ -1,0 +1,38 @@
+function data()
+return {
+    order = 0,
+	params = {
+		fade_out_range = {
+			fadeOutEndDist = 20000,
+			fadeOutStartDist = 10000,
+		},
+		map_albedo = {
+			fileName = "models/vehicle/waggon/ICE2/Apmz805/3-rumpf_or_DBAG_albedo.dds",
+			type = "TWOD",
+			wrapS = "CLAMP_TO_EDGE",
+			wrapT = "CLAMP_TO_EDGE",
+		},
+		map_metal_gloss_ao = {
+			fileName = "models/vehicle/waggon/ICE2/Apmz805/rumpf_metal_gloss_ao.dds",
+			type = "TWOD",
+			wrapS = "CLAMP_TO_EDGE",
+			wrapT = "CLAMP_TO_EDGE",
+		},
+		map_normal = {
+			fileName = "models/vehicle/waggon/ICE2/Apmz805/rumpf_normal.dds",
+            redGreen = true,
+			type = "TWOD",
+			wrapS = "CLAMP_TO_EDGE",
+			wrapT = "CLAMP_TO_EDGE",
+		},
+		polygon_offset = {
+			factor = 0,
+			units = 0,
+		},
+		two_sided = {
+			twoSided = false,
+		},
+	},
+	type = "PHYSICAL_NRML_MAP",
+}
+end

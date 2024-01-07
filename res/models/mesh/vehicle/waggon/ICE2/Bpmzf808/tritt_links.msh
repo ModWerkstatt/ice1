@@ -1,0 +1,77 @@
+function data()
+return {
+	animations = {
+		dooropen = {
+			params = {
+				keyframes = {
+					{
+						rot = { 0.0, 0.0, 0.0, },
+						time = 0.0,
+						transl = { 0.0, 0.0, 0.0, },
+					}, {
+						rot = { -0.9651, -2.45767, -42.87353, },
+						time = 2500.0,
+						transl = { 0.0, 0.0, 0.0, },
+					}, {
+						rot = { -0.9651, -2.45767, -42.87353, },
+						time = 6000.0,
+						transl = { 0.0, 0.0, 0.0, },
+					},
+				},
+				origin = { 0.0, 0.0, 0.0, },
+			},
+			type = "KEYFRAME",
+		},
+	},
+	matConfigs = {
+		{ 0, },
+	},
+	subMeshes = {
+		{
+			indices = {
+				normal = {
+					count = 576,
+					offset = 2604,
+				},
+				position = {
+					count = 576,
+					offset = 2028,
+				},
+				tangent = {
+					count = 576,
+					offset = 3756,
+				},
+				uv0 = {
+					count = 576,
+					offset = 3180,
+				},
+			},
+			materials = {
+				"vehicle/waggon/ICE2/Bpmzf808/rumpf.mtl",
+			},
+		},
+	},
+	vertexAttr = {
+		normal = {
+			count = 276,
+			numComp = 3,
+			offset = 312,
+		},
+		position = {
+			count = 312,
+			numComp = 3,
+			offset = 0,
+		},
+		tangent = {
+			count = 864,
+			numComp = 4,
+			offset = 1164,
+		},
+		uv0 = {
+			count = 576,
+			numComp = 2,
+			offset = 588,
+		},
+	},
+}
+end

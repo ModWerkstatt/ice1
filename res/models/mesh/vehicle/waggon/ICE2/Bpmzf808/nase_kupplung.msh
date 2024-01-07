@@ -1,0 +1,54 @@
+function data()
+return {
+	matConfigs = {
+		{ 0, },
+	},
+	subMeshes = {
+		{
+			indices = {
+				normal = {
+					count = 85800,
+					offset = 289136,
+				},
+				position = {
+					count = 85800,
+					offset = 374936,
+				},
+				tangent = {
+					count = 85800,
+					offset = 460736,
+				},
+				uv0 = {
+					count = 85800,
+					offset = 203336,
+				},
+			},
+			materials = {
+				"vehicle/train/licht.001.mtl",
+			},
+		},
+	},
+	vertexAttr = {
+		normal = {
+			count = 47748,
+			numComp = 3,
+			offset = 35968,
+		},
+		position = {
+			count = 43284,
+			numComp = 3,
+			offset = 83716,
+		},
+		tangent = {
+			count = 76336,
+			numComp = 4,
+			offset = 127000,
+		},
+		uv0 = {
+			count = 35968,
+			numComp = 2,
+			offset = 0,
+		},
+	},
+}
+end

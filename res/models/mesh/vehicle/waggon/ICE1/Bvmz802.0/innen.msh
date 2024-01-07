@@ -1,0 +1,54 @@
+function data()
+return {
+	matConfigs = {
+		{ 0, },
+	},
+	subMeshes = {
+		{
+			indices = {
+				normal = {
+					count = 309360,
+					offset = 1144408,
+				},
+				position = {
+					count = 309360,
+					offset = 525688,
+				},
+				tangent = {
+					count = 309360,
+					offset = 216328,
+				},
+				uv0 = {
+					count = 309360,
+					offset = 835048,
+				},
+			},
+			materials = {
+				"vehicle/waggon/ICE1/Bvmz802/innen.mtl",
+			},
+		},
+	},
+	vertexAttr = {
+		normal = {
+			count = 3876,
+			numComp = 3,
+			offset = 212452,
+		},
+		position = {
+			count = 168876,
+			numComp = 3,
+			offset = 30928,
+		},
+		tangent = {
+			count = 30928,
+			numComp = 4,
+			offset = 0,
+		},
+		uv0 = {
+			count = 12648,
+			numComp = 2,
+			offset = 199804,
+		},
+	},
+}
+end

@@ -1,0 +1,28 @@
+function data()
+return {
+    order = 2,
+    params = {
+		fade_out_range = {
+			fadeOutEndDist = 20000,
+			fadeOutStartDist = 10000,
+		},
+		map_albedo_opacity = {
+			fileName = "models/vehicle/waggon/ICE1/Avmz801/scheibe_albedo_opacity.dds",
+			type = "TWOD",
+		},
+		map_metal_gloss_ao = {
+			fileName = "models/vehicle/waggon/ICE1/Avmz801/scheibe_metal_gloss_ao.dds",
+			type = "TWOD",
+		},
+		polygon_offset = {
+            forceDepthWrite = false,
+            factor = -1,
+            units = -1,
+        },
+		two_sided = {
+			twoSided = false,
+		},
+	},
+	type = "PHYS_TRANSPARENT",
+}
+end

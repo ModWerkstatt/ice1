@@ -1,0 +1,54 @@
+function data()
+return {
+	matConfigs = {
+		{ 0, }, 
+	},
+	subMeshes = {
+		{
+			indices = {
+				normal = {
+					count = 156684,
+					offset = 509820,
+				},
+				position = {
+					count = 156684,
+					offset = 666504,
+				},
+				tangent = {
+					count = 156684,
+					offset = 823188,
+				},
+				uv0 = {
+					count = 156684,
+					offset = 353136,
+				},
+			},
+			materials = {
+				"vehicle/train/rumpf.mtl", 
+			},
+		}, 
+	},
+	vertexAttr = {
+		normal = {
+			count = 49356,
+			numComp = 3,
+			offset = 86248,
+		},
+		position = {
+			count = 82860,
+			numComp = 3,
+			offset = 135604,
+		},
+		tangent = {
+			count = 134672,
+			numComp = 4,
+			offset = 218464,
+		},
+		uv0 = {
+			count = 86248,
+			numComp = 2,
+			offset = 0,
+		},
+	},
+}
+end

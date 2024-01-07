@@ -1,0 +1,54 @@
+function data()
+return {
+	matConfigs = {
+		{ 0, },
+	},
+	subMeshes = {
+		{
+			indices = {
+				normal = {
+					count = 2760,
+					offset = 12036,
+				},
+				position = {
+					count = 2760,
+					offset = 14796,
+				},
+				tangent = {
+					count = 2760,
+					offset = 9276,
+				},
+				uv0 = {
+					count = 2760,
+					offset = 6516,
+				},
+			},
+			materials = {
+				"vehicle/waggon/ICE1/Apmbsz803/scheibe.mtl",
+			},
+		},
+	},
+	vertexAttr = {
+		normal = {
+			count = 516,
+			numComp = 3,
+			offset = 2496,
+		},
+		position = {
+			count = 3504,
+			numComp = 3,
+			offset = 3012,
+		},
+		tangent = {
+			count = 160,
+			numComp = 4,
+			offset = 2336,
+		},
+		uv0 = {
+			count = 2336,
+			numComp = 2,
+			offset = 0,
+		},
+	},
+}
+end

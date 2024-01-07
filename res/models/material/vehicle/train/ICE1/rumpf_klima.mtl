@@ -1,0 +1,31 @@
+function data()
+return {
+	params = {
+		fade_out_range = {
+			fadeOutEndDist = 20000,
+			fadeOutStartDist = 10000,
+		},
+		map_albedo = {
+			fileName = "models/vehicle/train/ICE1/0-rumpf_klima_albedo.dds",
+			type = "TWOD",
+		},
+		map_metal_gloss_ao = {
+			fileName = "models/vehicle/train/ICE1/rumpf_metal_gloss_ao.dds",
+			type = "TWOD",
+		},
+		map_normal = {
+			fileName = "models/vehicle/train/ICE1/rumpf_normal.dds",
+            redGreen = true,
+			type = "TWOD",
+		},
+		polygon_offset = {
+			factor = 0,
+			units = 0,
+		},
+		two_sided = {
+			twoSided = false,
+		},
+	},
+	type = "PHYSICAL_NRML_MAP",
+}
+end
