@@ -52,8 +52,6 @@ return {
             ["klima_fake.lua"] = true,
 			["or_DBAG_fake.lua"] = true,
 			["or_fake.lua"] = true,
-			["fake.lua"] = true,
-			["fake.lua"] = true,
             ["klima_fake.lua"] = true,
 			["klima_rev_fake.lua"] = true,
 			["or_DBAG_fake.lua"] = true,
