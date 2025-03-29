@@ -59,7 +59,7 @@ return {
 			["rev_fake.lua"] = true,
             ["30Jahre_fake.lua"] = true,
             ["vr_fake.lua"] = true,
-            ["vr_ref_fake.lua"] = true,
+            ["vr_rev_fake.lua"] = true,
 		}
 
 		local modelFilter = function(fileName, data)
