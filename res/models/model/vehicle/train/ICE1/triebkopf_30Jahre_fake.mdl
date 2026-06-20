@@ -29,12 +29,12 @@ return {
 							},
 							{
 								materials = { "vehicle/train/ICE1/drehgestell.mtl", },
-								mesh = "vehicle/train/ICE1/rad.msh",
+								mesh = "vehicle/train/ICE1/rad_lod0.msh",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5090899467468, 0, 0.50252997875214, 1, },
 							},
 							{
 								materials = { "vehicle/train/ICE1/drehgestell.mtl", },
-								mesh = "vehicle/train/ICE1/rad.msh",
+								mesh = "vehicle/train/ICE1/rad_lod0.msh",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5145499706268, 0, 0.50252997875214, 1, },
 							},
 						},
@@ -49,12 +49,12 @@ return {
 							},
 							{
 								materials = { "vehicle/train/ICE1/drehgestell.mtl", },
-								mesh = "vehicle/train/ICE1/rad.msh",
+								mesh = "vehicle/train/ICE1/rad_lod0.msh",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5090899467468, 0, 0.50252997875214, 1, },
 							},
 							{
 								materials = { "vehicle/train/ICE1/drehgestell.mtl", },
-								mesh = "vehicle/train/ICE1/rad.msh",
+								mesh = "vehicle/train/ICE1/rad_lod0.msh",
 								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5145499706268, 0, 0.50252997875214, 1, },
 							},
 						},
@@ -249,7 +249,7 @@ return {
 			blinkInterval = 500,
 			configs = {
 				{
-					axles = { "vehicle/train/ICE1/rad.msh", },
+					axles = { "vehicle/train/ICE1/rad_lod0.msh", },
 					backBackwardParts = { },
 					backForwardParts = { },
 					blinkLightsLeft0 = { },

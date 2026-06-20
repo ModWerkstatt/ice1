@@ -27,11 +27,11 @@ return {
 			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 		                    }, {
 			                    materials = { "vehicle/train/ICE1/drehgestell.mtl", },
-                                mesh = "vehicle/train/ICE1/rad.msh",
+                                mesh = "vehicle/train/ICE1/rad_lod0.msh",
 			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.50909, 0, 0.50253, 1, },
 		                    }, {
                                 materials = { "vehicle/train/ICE1/drehgestell.mtl", },
-                                mesh = "vehicle/train/ICE1/rad.msh",
+                                mesh = "vehicle/train/ICE1/rad_lod0.msh",
 			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.51455, 0, 0.50253, 1, },
 		                    },
 	                    },
@@ -45,11 +45,11 @@ return {
 			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 		                    }, {
 			                    materials = { "vehicle/train/ICE1/drehgestell.mtl", },
-                                mesh = "vehicle/train/ICE1/rad.msh",
+                                mesh = "vehicle/train/ICE1/rad_lod0.msh",
 			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.50909, 0, 0.50253, 1, },
 		                    }, {
                                 materials = { "vehicle/train/ICE1/drehgestell.mtl", },
-                                mesh = "vehicle/train/ICE1/rad.msh",
+                                mesh = "vehicle/train/ICE1/rad_lod0.msh",
 			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.51455, 0, 0.50253, 1, },
 		                    },
 	                    },
@@ -233,7 +233,7 @@ return {
 		railVehicle = {
 			configs = {
                 {
-                    axles = { "vehicle/train/ICE1/rad.msh", },
+                    axles = { "vehicle/train/ICE1/rad_lod0.msh", },
                     frontForwardParts = { },
                     backForwardParts = { },
                     frontBackwardParts = { },
