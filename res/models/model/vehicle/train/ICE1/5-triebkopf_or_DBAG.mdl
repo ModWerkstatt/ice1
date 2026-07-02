@@ -253,7 +253,7 @@ return {
 		railVehicle = {
 			configs = {
                 {
-                    axles = { "vehicle/train/ICE1/rad_lod0.msh", },
+                    axles = {  },
                     frontForwardParts = { 11 },
                     backForwardParts = { },
                     frontBackwardParts = { },
@@ -262,7 +262,7 @@ return {
                     innerBackwardParts = { }
             	},
                 {
-                    axles = { "vehicle/waggon/ICE1/rad_lod1.msh", },
+                    axles = {  },
                     frontForwardParts = { 11 },
                     backForwardParts = { },
                     frontBackwardParts = { },
@@ -271,7 +271,7 @@ return {
                     innerBackwardParts = { }
             	},
                 {
-                    axles = { "vehicle/waggon/ICE1/rad_lod2.msh", },
+                    axles = {  },
                     frontForwardParts = { },
                     backForwardParts = { },
                     frontBackwardParts = { },
