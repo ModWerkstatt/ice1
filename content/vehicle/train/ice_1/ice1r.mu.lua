@@ -1,0 +1,20 @@
+function data()
+return {
+	vehicles = {
+		{ name = "ice1_triebkopfR.mdl", forward = true },
+		{ name = "ice1_avmz801_8_klima.mdl", forward = false },
+		{ name = "ice1_avmz801_0_klima.mdl", forward = false },
+		{ name = "ice1_wdmz804_0_klima.mdl", forward = false },
+		{ name = "ice1_bpmbsz803.2_klima.mdl", forward = false },
+		{ name = "ice1_bvmz802_3_klima3.mdl", forward = false },
+		{ name = "ice1_bvmz802_3_klima3.mdl", forward = false },
+		{ name = "ice1_bvmz802_3_klima3.mdl", forward = false },
+		{ name = "ice1_bvmz802_6_klima.mdl", forward = false },
+		{ name = "ice1_bvmz802_8_klima.mdl", forward = false },
+		{ name = "ice1_5_triebkopfR.mdl", forward = false },
+	},
+	name = _("ICE1R_name"),
+	desc = _("ICE1R_desc"),
+    groupFileName = "menu_ice1.mdl",
+}
+end

@@ -1,0 +1,22 @@
+{
+    "name": "ICE 1 and ICE 2 of Deutsche Bahn",
+    "summary": "The first and second generation of the ICE fleet.",
+    "description": "The ICE 1 is the first series-produced high-speed train in Germany and the first of six types of Intercity Express multiple units. The multiple units have been in service with passengers at speeds of up to 280 km/h since 1991 and consist of two multiple units and up to 14 intermediate cars.\nThe second series of multiple units is called ICE 2. In contrast to the first version, they are shorter, but can be coupled using an automatic clutch. An ICE 2 multiple unit consists of a power car, six intermediate cars and a control car.\nThis mod includes also the fake variants of all models, can be optionally enabled by the ingame mod manager.",
+    "localization" : {
+        "de": {
+            "name": "ICE 1 und ICE 2 der Deutschen Bahn",
+            "summary": "Die erste und zweite Generation der ICE-Flotte.",
+            "description": "Der ICE 1 ist der erste in Serie gefertigte Hochgeschwindigkeitszug in Deutschland und der erste von inzwischen sechs Typen von Intercity-Express-Triebzügen. Die seit 1991 im Fahrgastbetrieb mit bis zu 280 km/h eingesetzten Triebzüge werden planmäßig aus zwei Triebköpfen und bis zu 14 Mittelwagen gebildet.\nAls ICE 2 wird die zweite Serie der Triebzüge bezeichnet. Sie sind im Gegensatz zur ersten Version kürzer, dafür aber mittels automatischer Kupplung kuppelbar. Ein ICE-2-Triebzug wird planmäßig aus einem Triebkopf, sechs Mittelwagen sowie einem Steuerwagen gebildet.\nDieser Mod beinhaltet ausserdem die Fake-Variante von allen Fahrzeugen. Diese können mit dem Ingame-Mod-Manager bei Bedarf aktiviert werden."
+        }
+    },
+    "authors": [
+        {
+            "name": "ModWerkstatt",
+            "role": "CREATOR"
+        }
+    ],
+    "tags": [
+        "Multiple Unit"
+    ],
+    "url": "https://www.modwerkstatt.com/downloads/ice-1-ice-2"
+}
