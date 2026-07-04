@@ -16,57 +16,57 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "/vehicle/waggon/ICE2/Bpmzf808/mat/rumpf.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/rumpf.msh",
-							name = "rumpf_1",
+							materials = { "mat/bpmzf808/rumpf.mtl", },
+							mesh = "msh/bpmzf808/rumpf_lod0.msh",
+							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							children = {
 								{ 
-									materials = { "/vehicle/waggon/ICE1/mat/drehgestell.mtl", },
-									mesh = "/vehicle/waggon/ICE1/msh/bogie.msh",
-									name = "bogie_3",
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/bogie_lod0.msh",
+									name = "bogie1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.00245, 0, 0.50369, 1, },
 								},
 								{ 
-									materials = { "/vehicle/waggon/ICE1/mat/drehgestell.mtl", },
-									mesh = "/vehicle/waggon/ICE1/msh/rad.msh",
-									name = "rad_4",
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod0.msh",
+									name = "a1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.22571, 0, 0.50253, 1, },
 								},
 								{ 
-									materials = { "mat/drehgestell.mtl", },
-									mesh = "/vehicle/waggon/ICE1/msh/rad.msh",
-									name = "rad_5",
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod0.msh",
+									name = "a2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.22571, 0, 0.50253, 1, },
 								},
 							},
-							name = "group_2",
+							name = "bogie1_grp",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.13372, 0, 0, 1, },
 						},
 						{ 
 							children = {
 								{ 
-									materials = { "/vehicle/waggon/ICE1/mat/drehgestell.mtl", },
-									mesh = "/vehicle/waggon/ICE1/msh/bogie.msh",
-									name = "bogie_7",
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/bogie_lod0.msh",
+									name = "bogie2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.00245, 0, 0.50369, 1, },
 								},
 								{ 
-									materials = { "/vehicle/waggon/ICE1/mat/drehgestell.mtl", },
-									mesh = "/vehicle/waggon/ICE1/msh/rad.msh",
-									name = "rad_8",
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod0.msh",
+									name = "a3",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.22571, 0, 0.50253, 1, },
 								},
 								{ 
-									materials = { "mat/drehgestell.mtl", },
-									mesh = "/vehicle/waggon/ICE1/msh/rad.msh",
-									name = "rad_9",
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod0.msh",
+									name = "a4",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.22571, 0, 0.50253, 1, },
 								},
 							},
-							name = "group_6",
+							name = "bogie2_grp",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.13372, 0, 0, 1, },
 						},
 						{ 
@@ -87,7 +87,7 @@ return {
 								},
 							},
 							materials = { "::/vehicle/train/emissive/train_all_lights.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/lampen_weiss.msh",
+							mesh = "msh/bpmzf808/lampen_weiss_lod0.msh",
 							name = "lampen_weiss_10",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
@@ -109,7 +109,7 @@ return {
 								},
 							},
 							materials = { "::/vehicle/train/emissive/train_all_lights.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/lampen_rot.msh",
+							mesh = "msh/bpmzf808/lampen_rot_lod0.msh",
 							name = "lampen_rot_11",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
@@ -130,8 +130,8 @@ return {
 									type = "FILE_REF",
 								},
 							},
-							materials = { "/vehicle/waggon/ICE2/Bpmzf808/mat/rumpf.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/nase.msh",
+							materials = { "mat/bpmzf808/rumpf.mtl", },
+							mesh = "msh/bpmzf808/nase_lod0.msh",
 							name = "nase_12",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
@@ -152,8 +152,8 @@ return {
 									type = "FILE_REF",
 								},
 							},
-							materials = { "/vehicle/waggon/ICE2/Bpmzf808/mat/rumpf.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/nase.msh",
+							materials = { "mat/bpmzf808/rumpf.mtl", },
+							mesh = "msh/bpmzf808/nase_lod0.msh",
 							name = "nase_13",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
@@ -174,8 +174,8 @@ return {
 									type = "FILE_REF",
 								},
 							},
-							materials = { "/vehicle/waggon/ICE2/Bpmzf808/mat/rumpf.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/nase_kupplung.msh",
+							materials = { "mat/bpmzf808/rumpf.mtl", },
+							mesh = "msh/bpmzf808/nase_kupplung_lod0.msh",
 							name = "nase_kupplung_14",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
@@ -196,8 +196,8 @@ return {
 									type = "FILE_REF",
 								},
 							},
-							materials = { "/vehicle/waggon/ICE2/Bpmzf808/mat/rumpf.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/nase_kupplung.msh",
+							materials = { "mat/bpmzf808/rumpf.mtl", },
+							mesh = "msh/bpmzf808/nase_kupplung_lod0.msh",
 							name = "nase_kupplung_15",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
@@ -205,31 +205,31 @@ return {
 							animations = { 
 								close_all_doors = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tur_rechts_hinten_c.ani",
+										id = "ani/doors/door_rechts_hinten_c.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tur_rechts_hinten_c.ani",
+										id = "ani/doors/door_rechts_hinten_c.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_all_doors = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tur_rechts_hinten.ani",
+										id = "ani/doors/door_rechts_hinten.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tur_rechts_hinten.ani",
+										id = "ani/doors/door_rechts_hinten.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
-							materials = { "/vehicle/waggon/ICE2/Bpmzf808/mat/rumpf.mtl", "/vehicle/waggon/ICE2/Bpmzf808/mat/scheibe.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/tur_rechts.msh",
+							materials = { "mat/bpmzf808/rumpf.mtl", "mat/bpmzf808/scheibe.mtl", },
+							mesh = "msh/bpmzf808/door_rechts_lod0.msh",
 							name = "tur_rechts_16",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.2856, -1.46648, 1.4754, 1, },
 						},
@@ -237,31 +237,31 @@ return {
 							animations = { 
 								close_all_doors = { 
 									params = { 
-										id = "/vehicle/waggon/ICE2/tueren/tritt_kopf_links_c.ani",
+										id = "ani/steps/step_kopf_links_c.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_left = { 
 									params = { 
-										id = "/vehicle/waggon/ICE2/tueren/tritt_kopf_links_c.ani",
+										id = "ani/steps/step_kopf_links_c.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_all_doors = { 
 									params = { 
-										id = "/vehicle/waggon/ICE2/tueren/tritt_kopf_links.ani",
+										id = "ani/steps/step_kopf_links.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "/vehicle/waggon/ICE2/tueren/tritt_kopf_links.ani",
+										id = "ani/steps/step_kopf_links.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
-							materials = { "/vehicle/waggon/ICE2/Bpmzf808/mat/rumpf.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/tritt_links.msh",
+							materials = { "mat/bpmzf808/rumpf.mtl", },
+							mesh = "msh/bpmzf808/step_links_lod0.msh",
 							name = "tritt_links_17",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.7309, 1.30065, 0.73536, 1, },
 						},
@@ -269,31 +269,31 @@ return {
 							animations = { 
 								close_all_doors = { 
 									params = { 
-										id = "/vehicle/waggon/ICE2/tueren/tritt_kopf_rechts_c.ani",
+										id = "ani/steps/step_kopf_rechts_c.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									params = { 
-										id = "/vehicle/waggon/ICE2/tueren/tritt_kopf_rechts_c.ani",
+										id = "ani/steps/step_kopf_rechts_c.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_all_doors = { 
 									params = { 
-										id = "/vehicle/waggon/ICE2/tueren/tritt_kopf_rechts.ani",
+										id = "ani/steps/step_kopf_rechts.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "/vehicle/waggon/ICE2/tueren/tritt_kopf_rechts.ani",
+										id = "ani/steps/step_kopf_rechts.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
-							materials = { "/vehicle/waggon/ICE2/Bpmzf808/mat/rumpf.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/tritt_rechts.msh",
+							materials = { "mat/bpmzf808/rumpf.mtl", },
+							mesh = "msh/bpmzf808/step_rechts_lod0.msh",
 							name = "tritt_rechts_18",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.7309, -1.30065, 0.73536, 1, },
 						},
@@ -301,31 +301,31 @@ return {
 							animations = { 
 								close_all_doors = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tritt_rechts_hinten_c.ani",
+										id = "ani/steps/step_rechts_hinten_c.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tritt_rechts_hinten_c.ani",
+										id = "ani/steps/step_rechts_hinten_c.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_all_doors = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tritt_rechts_hinten.ani",
+										id = "ani/steps/step_rechts_hinten.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tritt_rechts_hinten.ani",
+										id = "ani/steps/step_rechts_hinten.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
-							materials = { "/vehicle/waggon/ICE2/Bpmzf808/mat/rumpf.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/tritt2_rechts.msh",
+							materials = { "mat/bpmzf808/rumpf.mtl", },
+							mesh = "msh/bpmzf808/step2_rechts_lod0.msh",
 							name = "tritt2_rechts_19",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.7309, -1.20998, 0.576421, 1, },
 						},
@@ -333,31 +333,31 @@ return {
 							animations = { 
 								close_all_doors = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tritt_links_hinten_c.ani",
+										id = "ani/steps/step_links_hinten_c.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_left = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tritt_links_hinten_c.ani",
+										id = "ani/steps/step_links_hinten_c.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_all_doors = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tritt_links_hinten.ani",
+										id = "ani/steps/step_links_hinten.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tritt_links_hinten.ani",
+										id = "ani/steps/step_links_hinten.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
-							materials = { "/vehicle/waggon/ICE2/Bpmzf808/mat/rumpf.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/tritt2_links.msh",
+							materials = { "mat/bpmzf808/rumpf.mtl", },
+							mesh = "msh/bpmzf808/step2_links_lod0.msh",
 							name = "tritt2_links_20",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.7309, 1.20998, 0.576421, 1, },
 						},
@@ -365,44 +365,44 @@ return {
 							animations = { 
 								close_all_doors = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tur_links_hinten_c.ani",
+										id = "ani/doors/door_links_hinten_c.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_left = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tur_links_hinten_c.ani",
+										id = "ani/doors/door_links_hinten_c.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_all_doors = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tur_links_hinten.ani",
+										id = "ani/doors/door_links_hinten.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tur_links_hinten.ani",
+										id = "ani/doors/door_links_hinten.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
-							materials = { "/vehicle/waggon/ICE2/Bpmzf808/mat/rumpf.mtl", "/vehicle/waggon/ICE2/Bpmzf808/mat/scheibe.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/tur_links.msh",
+							materials = { "mat/bpmzf808/rumpf.mtl", "mat/bpmzf808/scheibe.mtl", },
+							mesh = "msh/bpmzf808/door_links_lod0.msh",
 							name = "tur_links_21",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.2856, 1.46648, 1.4754, 1, },
 						},
 						{ 
-							materials = { "/vehicle/waggon/ICE2/Bpmzf808/mat/scheibe.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/scheibe.msh",
+							materials = { "mat/bpmzf808/scheibe.mtl", },
+							mesh = "msh/bpmzf808/scheibe_lod0.msh",
 							name = "scheibe_22",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
-							materials = { "/vehicle/waggon/ICE2/Bpmzf808/mat/innen.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/innen.msh",
-							name = "innen_23",
+							materials = { "mat/bpmzf808/innen.mtl", },
+							mesh = "msh/bpmzf808/innen_lod0.msh",
+							name = "interior",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 					},
@@ -416,57 +416,57 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "/vehicle/waggon/ICE2/Bpmzf808/mat/rumpf.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/rumpf_lod1.msh",
-							name = "rumpf_lod1_1",
+							materials = { "mat/bpmzf808/rumpf.mtl", },
+							mesh = "msh/bpmzf808/rumpf_lod1.msh",
+							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							children = {
 								{ 
-									materials = { "/vehicle/waggon/ICE1/mat/drehgestell.mtl", },
-									mesh = "/vehicle/waggon/ICE1/msh/bogie_lod1.msh",
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/bogie_lod1.msh",
 									name = "bogie_lod1_3",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.00245, 0, 0.50369, 1, },
 								},
 								{ 
-									materials = { "/vehicle/waggon/ICE1/mat/drehgestell.mtl", },
-									mesh = "/vehicle/waggon/ICE1/msh/rad_lod1.msh",
-									name = "rad_lod1_4",
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod1.msh",
+									name = "a1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.22571, 0, 0.50253, 1, },
 								},
 								{ 
-									materials = { "mat/drehgestell.mtl", },
-									mesh = "/vehicle/waggon/ICE1/msh/rad_lod1.msh",
-									name = "rad_lod1_5",
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod1.msh",
+									name = "a2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.22571, 0, 0.50253, 1, },
 								},
 							},
-							name = "group_2",
+							name = "bogie1_grp",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.13372, 0, 0, 1, },
 						},
 						{ 
 							children = {
 								{ 
-									materials = { "/vehicle/waggon/ICE1/mat/drehgestell.mtl", },
-									mesh = "/vehicle/waggon/ICE1/msh/bogie_lod1.msh",
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/bogie_lod1.msh",
 									name = "bogie_lod1_7",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.00245, 0, 0.50369, 1, },
 								},
 								{ 
-									materials = { "/vehicle/waggon/ICE1/mat/drehgestell.mtl", },
-									mesh = "/vehicle/waggon/ICE1/msh/rad_lod1.msh",
-									name = "rad_lod1_8",
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod1.msh",
+									name = "a3",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.22571, 0, 0.50253, 1, },
 								},
 								{ 
-									materials = { "mat/drehgestell.mtl", },
-									mesh = "/vehicle/waggon/ICE1/msh/rad_lod1.msh",
-									name = "rad_lod1_9",
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod1.msh",
+									name = "a4",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.22571, 0, 0.50253, 1, },
 								},
 							},
-							name = "group_6",
+							name = "bogie2_grp",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.13372, 0, 0, 1, },
 						},
 						{ 
@@ -487,7 +487,7 @@ return {
 								},
 							},
 							materials = { "::/vehicle/train/emissive/train_all_lights.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/lampen_weiss.msh",
+							mesh = "msh/bpmzf808/lampen_weiss_lod0.msh",
 							name = "lampen_weiss_10",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
@@ -509,7 +509,7 @@ return {
 								},
 							},
 							materials = { "::/vehicle/train/emissive/train_all_lights.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/lampen_rot.msh",
+							mesh = "msh/bpmzf808/lampen_rot_lod0.msh",
 							name = "lampen_rot_11",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
@@ -530,8 +530,8 @@ return {
 									type = "FILE_REF",
 								},
 							},
-							materials = { "/vehicle/waggon/ICE2/Bpmzf808/mat/rumpf.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/nase_lod1.msh",
+							materials = { "mat/bpmzf808/rumpf.mtl", },
+							mesh = "msh/bpmzf808/nase_lod1.msh",
 							name = "nase_lod1_12",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
@@ -552,8 +552,8 @@ return {
 									type = "FILE_REF",
 								},
 							},
-							materials = { "/vehicle/waggon/ICE2/Bpmzf808/mat/rumpf.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/nase_lod1.msh",
+							materials = { "mat/bpmzf808/rumpf.mtl", },
+							mesh = "msh/bpmzf808/nase_lod1.msh",
 							name = "nase_lod1_13",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
@@ -574,8 +574,8 @@ return {
 									type = "FILE_REF",
 								},
 							},
-							materials = { "/vehicle/waggon/ICE2/Bpmzf808/mat/rumpf.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/nase_kupplung_lod1.msh",
+							materials = { "mat/bpmzf808/rumpf.mtl", },
+							mesh = "msh/bpmzf808/nase_kupplung_lod1.msh",
 							name = "nase_kupplung_lod1_14",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
@@ -596,8 +596,8 @@ return {
 									type = "FILE_REF",
 								},
 							},
-							materials = { "/vehicle/waggon/ICE2/Bpmzf808/mat/rumpf.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/nase_kupplung_lod1.msh",
+							materials = { "mat/bpmzf808/rumpf.mtl", },
+							mesh = "msh/bpmzf808/nase_kupplung_lod1.msh",
 							name = "nase_kupplung_lod1_15",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
@@ -605,31 +605,31 @@ return {
 							animations = { 
 								close_all_doors = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tur_rechts_hinten_c.ani",
+										id = "ani/doors/door_rechts_hinten_c.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tur_rechts_hinten_c.ani",
+										id = "ani/doors/door_rechts_hinten_c.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_all_doors = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tur_rechts_hinten.ani",
+										id = "ani/doors/door_rechts_hinten.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tur_rechts_hinten.ani",
+										id = "ani/doors/door_rechts_hinten.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
-							materials = { "/vehicle/waggon/ICE2/Bpmzf808/mat/rumpf.mtl", "/vehicle/waggon/ICE2/Bpmzf808/mat/scheibe.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/tur_rechts.msh",
+							materials = { "mat/bpmzf808/rumpf.mtl", "mat/bpmzf808/scheibe.mtl", },
+							mesh = "msh/bpmzf808/door_rechts_lod0.msh",
 							name = "tur_rechts_16",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.2856, -1.46648, 1.4754, 1, },
 						},
@@ -637,31 +637,31 @@ return {
 							animations = { 
 								close_all_doors = { 
 									params = { 
-										id = "/vehicle/waggon/ICE2/tueren/tritt_kopf_links_c.ani",
+										id = "ani/steps/step_kopf_links_c.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_left = { 
 									params = { 
-										id = "/vehicle/waggon/ICE2/tueren/tritt_kopf_links_c.ani",
+										id = "ani/steps/step_kopf_links_c.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_all_doors = { 
 									params = { 
-										id = "/vehicle/waggon/ICE2/tueren/tritt_kopf_links.ani",
+										id = "ani/steps/step_kopf_links.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "/vehicle/waggon/ICE2/tueren/tritt_kopf_links.ani",
+										id = "ani/steps/step_kopf_links.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
-							materials = { "/vehicle/waggon/ICE2/Bpmzf808/mat/rumpf.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/tritt_links.msh",
+							materials = { "mat/bpmzf808/rumpf.mtl", },
+							mesh = "msh/bpmzf808/step_links_lod0.msh",
 							name = "tritt_links_17",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.7309, 1.30065, 0.73536, 1, },
 						},
@@ -669,31 +669,31 @@ return {
 							animations = { 
 								close_all_doors = { 
 									params = { 
-										id = "/vehicle/waggon/ICE2/tueren/tritt_kopf_rechts_c.ani",
+										id = "ani/steps/step_kopf_rechts_c.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									params = { 
-										id = "/vehicle/waggon/ICE2/tueren/tritt_kopf_rechts_c.ani",
+										id = "ani/steps/step_kopf_rechts_c.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_all_doors = { 
 									params = { 
-										id = "/vehicle/waggon/ICE2/tueren/tritt_kopf_rechts.ani",
+										id = "ani/steps/step_kopf_rechts.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "/vehicle/waggon/ICE2/tueren/tritt_kopf_rechts.ani",
+										id = "ani/steps/step_kopf_rechts.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
-							materials = { "/vehicle/waggon/ICE2/Bpmzf808/mat/rumpf.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/tritt_rechts.msh",
+							materials = { "mat/bpmzf808/rumpf.mtl", },
+							mesh = "msh/bpmzf808/step_rechts_lod0.msh",
 							name = "tritt_rechts_18",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.7309, -1.30065, 0.73536, 1, },
 						},
@@ -701,31 +701,31 @@ return {
 							animations = { 
 								close_all_doors = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tritt_rechts_hinten_c.ani",
+										id = "ani/steps/step_rechts_hinten_c.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tritt_rechts_hinten_c.ani",
+										id = "ani/steps/step_rechts_hinten_c.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_all_doors = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tritt_rechts_hinten.ani",
+										id = "ani/steps/step_rechts_hinten.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tritt_rechts_hinten.ani",
+										id = "ani/steps/step_rechts_hinten.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
-							materials = { "/vehicle/waggon/ICE2/Bpmzf808/mat/rumpf.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/tritt2_rechts.msh",
+							materials = { "mat/bpmzf808/rumpf.mtl", },
+							mesh = "msh/bpmzf808/step2_rechts_lod0.msh",
 							name = "tritt2_rechts_19",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.7309, -1.20998, 0.576421, 1, },
 						},
@@ -733,31 +733,31 @@ return {
 							animations = { 
 								close_all_doors = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tritt_links_hinten_c.ani",
+										id = "ani/steps/step_links_hinten_c.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_left = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tritt_links_hinten_c.ani",
+										id = "ani/steps/step_links_hinten_c.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_all_doors = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tritt_links_hinten.ani",
+										id = "ani/steps/step_links_hinten.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tritt_links_hinten.ani",
+										id = "ani/steps/step_links_hinten.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
-							materials = { "/vehicle/waggon/ICE2/Bpmzf808/mat/rumpf.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/tritt2_links.msh",
+							materials = { "mat/bpmzf808/rumpf.mtl", },
+							mesh = "msh/bpmzf808/step2_links_lod0.msh",
 							name = "tritt2_links_20",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.7309, 1.20998, 0.576421, 1, },
 						},
@@ -765,44 +765,44 @@ return {
 							animations = { 
 								close_all_doors = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tur_links_hinten_c.ani",
+										id = "ani/doors/door_links_hinten_c.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_left = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tur_links_hinten_c.ani",
+										id = "ani/doors/door_links_hinten_c.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_all_doors = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tur_links_hinten.ani",
+										id = "ani/doors/door_links_hinten.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tur_links_hinten.ani",
+										id = "ani/doors/door_links_hinten.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
-							materials = { "/vehicle/waggon/ICE2/Bpmzf808/mat/rumpf.mtl", "/vehicle/waggon/ICE2/Bpmzf808/mat/scheibe.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/tur_links.msh",
+							materials = { "mat/bpmzf808/rumpf.mtl", "mat/bpmzf808/scheibe.mtl", },
+							mesh = "msh/bpmzf808/door_links_lod0.msh",
 							name = "tur_links_21",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.2856, 1.46648, 1.4754, 1, },
 						},
 						{ 
-							materials = { "/vehicle/waggon/ICE2/Bpmzf808/mat/scheibe.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/scheibe.msh",
+							materials = { "mat/bpmzf808/scheibe.mtl", },
+							mesh = "msh/bpmzf808/scheibe_lod0.msh",
 							name = "scheibe_22",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
-							materials = { "/vehicle/waggon/ICE2/Bpmzf808/mat/innen.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/innen_lod1.msh",
-							name = "innen_lod1_23",
+							materials = { "mat/bpmzf808/innen.mtl", },
+							mesh = "msh/bpmzf808/innen_lod1.msh",
+							name = "interior",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 					},
@@ -816,57 +816,57 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "/vehicle/waggon/ICE2/Bpmzf808/mat/rumpf.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/rumpf_lod2.msh",
-							name = "rumpf_lod2_1",
+							materials = { "mat/bpmzf808/rumpf.mtl", },
+							mesh = "msh/bpmzf808/rumpf_lod2.msh",
+							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							children = {
 								{ 
-									materials = { "/vehicle/waggon/ICE1/mat/drehgestell.mtl", },
-									mesh = "/vehicle/waggon/ICE1/msh/bogie_lod2.msh",
-									name = "bogie_lod2_3",
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/bogie_lod2.msh",
+									name = "bogie1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.00245, 0, 0.50369, 1, },
 								},
 								{ 
-									materials = { "/vehicle/waggon/ICE1/mat/drehgestell.mtl", },
-									mesh = "/vehicle/waggon/ICE1/msh/rad_lod2.msh",
-									name = "rad_lod2_4",
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod2.msh",
+									name = "a1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.22571, 0, 0.50253, 1, },
 								},
 								{ 
-									materials = { "mat/drehgestell.mtl", },
-									mesh = "/vehicle/waggon/ICE1/msh/rad_lod2.msh",
-									name = "rad_lod2_5",
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod2.msh",
+									name = "a2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.22571, 0, 0.50253, 1, },
 								},
 							},
-							name = "group_2",
+							name = "bogie1_grp",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.13372, 0, 0, 1, },
 						},
 						{ 
 							children = {
 								{ 
-									materials = { "/vehicle/waggon/ICE1/mat/drehgestell.mtl", },
-									mesh = "/vehicle/waggon/ICE1/msh/bogie_lod2.msh",
-									name = "bogie_lod2_7",
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/bogie_lod2.msh",
+									name = "bogie2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.00245, 0, 0.50369, 1, },
 								},
 								{ 
-									materials = { "/vehicle/waggon/ICE1/mat/drehgestell.mtl", },
-									mesh = "/vehicle/waggon/ICE1/msh/rad_lod2.msh",
-									name = "rad_lod2_8",
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod2.msh",
+									name = "a3",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.22571, 0, 0.50253, 1, },
 								},
 								{ 
-									materials = { "mat/drehgestell.mtl", },
-									mesh = "/vehicle/waggon/ICE1/msh/rad_lod2.msh",
-									name = "rad_lod2_9",
+									materials = { "mat/shared/drehgestell.mtl", },
+									mesh = "msh/shared/rad_lod2.msh",
+									name = "a4",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.22571, 0, 0.50253, 1, },
 								},
 							},
-							name = "group_6",
+							name = "bogie2_grp",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.13372, 0, 0, 1, },
 						},
 						{ 
@@ -887,7 +887,7 @@ return {
 								},
 							},
 							materials = { "::/vehicle/train/emissive/train_all_lights.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/lampen_weiss.msh",
+							mesh = "msh/bpmzf808/lampen_weiss_lod0.msh",
 							name = "lampen_weiss_10",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
@@ -909,7 +909,7 @@ return {
 								},
 							},
 							materials = { "::/vehicle/train/emissive/train_all_lights.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/lampen_rot.msh",
+							mesh = "msh/bpmzf808/lampen_rot_lod0.msh",
 							name = "lampen_rot_11",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
@@ -930,8 +930,8 @@ return {
 									type = "FILE_REF",
 								},
 							},
-							materials = { "/vehicle/waggon/ICE2/Bpmzf808/mat/rumpf.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/nase_lod2.msh",
+							materials = { "mat/bpmzf808/rumpf.mtl", },
+							mesh = "msh/bpmzf808/nase_lod2.msh",
 							name = "nase_lod2_12",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
@@ -952,20 +952,20 @@ return {
 									type = "FILE_REF",
 								},
 							},
-							materials = { "/vehicle/waggon/ICE2/Bpmzf808/mat/rumpf.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/nase_lod2.msh",
+							materials = { "mat/bpmzf808/rumpf.mtl", },
+							mesh = "msh/bpmzf808/nase_lod2.msh",
 							name = "nase_lod2_13",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
-							materials = { "/vehicle/waggon/ICE2/Bpmzf808/mat/rumpf.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/nase_kupplung_lod2.msh",
+							materials = { "mat/bpmzf808/rumpf.mtl", },
+							mesh = "msh/bpmzf808/nase_kupplung_lod2.msh",
 							name = "nase_kupplung_lod2_14",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
-							materials = { "/vehicle/waggon/ICE2/Bpmzf808/mat/rumpf.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/nase_kupplung_lod2.msh",
+							materials = { "mat/bpmzf808/rumpf.mtl", },
+							mesh = "msh/bpmzf808/nase_kupplung_lod2.msh",
 							name = "nase_kupplung_lod2_15",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
@@ -973,31 +973,31 @@ return {
 							animations = { 
 								close_all_doors = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tur_rechts_hinten_c.ani",
+										id = "ani/doors/door_rechts_hinten_c.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tur_rechts_hinten_c.ani",
+										id = "ani/doors/door_rechts_hinten_c.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_all_doors = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tur_rechts_hinten.ani",
+										id = "ani/doors/door_rechts_hinten.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tur_rechts_hinten.ani",
+										id = "ani/doors/door_rechts_hinten.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
-							materials = { "/vehicle/waggon/ICE2/Bpmzf808/mat/rumpf.mtl", "/vehicle/waggon/ICE2/Bpmzf808/mat/scheibe.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/tur_rechts.msh",
+							materials = { "mat/bpmzf808/rumpf.mtl", "mat/bpmzf808/scheibe.mtl", },
+							mesh = "msh/bpmzf808/door_rechts_lod0.msh",
 							name = "tur_rechts_16",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.2856, -1.46648, 1.4754, 1, },
 						},
@@ -1005,31 +1005,31 @@ return {
 							animations = { 
 								close_all_doors = { 
 									params = { 
-										id = "/vehicle/waggon/ICE2/tueren/tritt_kopf_links_c.ani",
+										id = "ani/steps/step_kopf_links_c.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_left = { 
 									params = { 
-										id = "/vehicle/waggon/ICE2/tueren/tritt_kopf_links_c.ani",
+										id = "ani/steps/step_kopf_links_c.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_all_doors = { 
 									params = { 
-										id = "/vehicle/waggon/ICE2/tueren/tritt_kopf_links.ani",
+										id = "ani/steps/step_kopf_links.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "/vehicle/waggon/ICE2/tueren/tritt_kopf_links.ani",
+										id = "ani/steps/step_kopf_links.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
-							materials = { "/vehicle/waggon/ICE2/Bpmzf808/mat/rumpf.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/tritt_links.msh",
+							materials = { "mat/bpmzf808/rumpf.mtl", },
+							mesh = "msh/bpmzf808/step_links_lod0.msh",
 							name = "tritt_links_17",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.7309, 1.30065, 0.73536, 1, },
 						},
@@ -1037,31 +1037,31 @@ return {
 							animations = { 
 								close_all_doors = { 
 									params = { 
-										id = "/vehicle/waggon/ICE2/tueren/tritt_kopf_rechts_c.ani",
+										id = "ani/steps/step_kopf_rechts_c.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									params = { 
-										id = "/vehicle/waggon/ICE2/tueren/tritt_kopf_rechts_c.ani",
+										id = "ani/steps/step_kopf_rechts_c.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_all_doors = { 
 									params = { 
-										id = "/vehicle/waggon/ICE2/tueren/tritt_kopf_rechts.ani",
+										id = "ani/steps/step_kopf_rechts.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "/vehicle/waggon/ICE2/tueren/tritt_kopf_rechts.ani",
+										id = "ani/steps/step_kopf_rechts.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
-							materials = { "/vehicle/waggon/ICE2/Bpmzf808/mat/rumpf.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/tritt_rechts.msh",
+							materials = { "mat/bpmzf808/rumpf.mtl", },
+							mesh = "msh/bpmzf808/step_rechts_lod0.msh",
 							name = "tritt_rechts_18",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.7309, -1.30065, 0.73536, 1, },
 						},
@@ -1069,31 +1069,31 @@ return {
 							animations = { 
 								close_all_doors = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tritt_rechts_hinten_c.ani",
+										id = "ani/steps/step_rechts_hinten_c.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_right = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tritt_rechts_hinten_c.ani",
+										id = "ani/steps/step_rechts_hinten_c.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_all_doors = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tritt_rechts_hinten.ani",
+										id = "ani/steps/step_rechts_hinten.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_right = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tritt_rechts_hinten.ani",
+										id = "ani/steps/step_rechts_hinten.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
-							materials = { "/vehicle/waggon/ICE2/Bpmzf808/mat/rumpf.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/tritt2_rechts.msh",
+							materials = { "mat/bpmzf808/rumpf.mtl", },
+							mesh = "msh/bpmzf808/step2_rechts_lod0.msh",
 							name = "tritt2_rechts_19",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.7309, -1.20998, 0.576421, 1, },
 						},
@@ -1101,31 +1101,31 @@ return {
 							animations = { 
 								close_all_doors = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tritt_links_hinten_c.ani",
+										id = "ani/steps/step_links_hinten_c.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_left = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tritt_links_hinten_c.ani",
+										id = "ani/steps/step_links_hinten_c.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_all_doors = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tritt_links_hinten.ani",
+										id = "ani/steps/step_links_hinten.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tritt_links_hinten.ani",
+										id = "ani/steps/step_links_hinten.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
-							materials = { "/vehicle/waggon/ICE2/Bpmzf808/mat/rumpf.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/tritt2_links.msh",
+							materials = { "mat/bpmzf808/rumpf.mtl", },
+							mesh = "msh/bpmzf808/step2_links_lod0.msh",
 							name = "tritt2_links_20",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -11.7309, 1.20998, 0.576421, 1, },
 						},
@@ -1133,44 +1133,44 @@ return {
 							animations = { 
 								close_all_doors = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tur_links_hinten_c.ani",
+										id = "ani/doors/door_links_hinten_c.ani",
 									},
 									type = "FILE_REF",
 								},
 								close_doors_left = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tur_links_hinten_c.ani",
+										id = "ani/doors/door_links_hinten_c.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_all_doors = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tur_links_hinten.ani",
+										id = "ani/doors/door_links_hinten.ani",
 									},
 									type = "FILE_REF",
 								},
 								open_doors_left = { 
 									params = { 
-										id = "/vehicle/waggon/ICE1/tueren/tur_links_hinten.ani",
+										id = "ani/doors/door_links_hinten.ani",
 									},
 									type = "FILE_REF",
 								},
 							},
-							materials = { "/vehicle/waggon/ICE2/Bpmzf808/mat/rumpf.mtl", "/vehicle/waggon/ICE2/Bpmzf808/mat/scheibe.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/tur_links.msh",
+							materials = { "mat/bpmzf808/rumpf.mtl", "mat/bpmzf808/scheibe.mtl", },
+							mesh = "msh/bpmzf808/door_links_lod0.msh",
 							name = "tur_links_21",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.2856, 1.46648, 1.4754, 1, },
 						},
 						{ 
-							materials = { "/vehicle/waggon/ICE2/Bpmzf808/mat/scheibe.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/scheibe.msh",
+							materials = { "mat/bpmzf808/scheibe.mtl", },
+							mesh = "msh/bpmzf808/scheibe_lod0.msh",
 							name = "scheibe_22",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
-							materials = { "/vehicle/waggon/ICE2/Bpmzf808/mat/innen.mtl", },
-							mesh = "/vehicle/waggon/ICE2/Bpmzf808/msh/innen_lod2.msh",
-							name = "innen_lod2_23",
+							materials = { "mat/bpmzf808/innen.mtl", },
+							mesh = "msh/bpmzf808/innen_lod2.msh",
+							name = "interior",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 					},
@@ -1218,7 +1218,7 @@ return {
 			},
 			railVehicle = { 
 				config = { 
-					axles = { "rad_4", "rad_5", "rad_8", "rad_9", "rad_lod1_4", "rad_lod1_5", "rad_lod1_8", "rad_lod1_9", "rad_lod2_4", "rad_lod2_5", "rad_lod2_8", "rad_lod2_9", },
+					axles = { "a1", "a2", "a3", "a4", },
 					fakeBogies = { },
 				},
 			},
@@ -1229,247 +1229,247 @@ return {
 					{ 
 						animation = "driving_upright",
 						crew = true,
-						group = "rumpf_1",
+						group = "body",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 11.2, -0.65, 1.65, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 4.5, -1.15, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 4.5, -0.55, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 3.4, -1.15, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 3.4, -0.55, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 2.3, -1.15, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 2.3, -0.55, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1.2, -1.15, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1.2, -0.55, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0.2, -1.15, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0.2, -0.55, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1, -1.15, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1, -0.55, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -1.7, -1.15, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -1.7, -0.55, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -2.8, -1.15, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -2.8, -0.55, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.9, -1.15, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.9, -0.55, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5, -1.15, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5, -0.55, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.2, -1.15, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.2, -0.55, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.4, -1.15, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.4, -0.55, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.5, -1.15, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.5, -0.55, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 4.5, 1.15, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 4.5, 0.55, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 3.4, 1.15, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 3.4, 0.55, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 2.3, 1.15, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 2.3, 0.55, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1.2, 1.15, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1.2, 0.55, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0.2, 1.15, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0.2, 0.55, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1, 1.05, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -1.7, 1.15, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -2.8, 1.15, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -2.8, 0.55, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.9, 1.15, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.9, 0.55, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5, 1.15, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5, 0.55, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.2, 1.05, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.2, 0.45, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.4, 1.05, 1.3, 1, },
 					},
 					{ 
 						animation = "sitting",
-						group = "rumpf_1",
+						group = "body",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.4, 0.45, 1.3, 1, },
 					},
 				},

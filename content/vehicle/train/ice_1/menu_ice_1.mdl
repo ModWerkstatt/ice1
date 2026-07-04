@@ -1,0 +1,128 @@
+function data()
+return {
+		boundingInfo = {
+			bbMax = { 1.5, 1.5, 1.5, },
+			bbMin = { -1.5, -1.5, -1.5, },
+		},
+		collider = {
+			params = {
+				halfExtents = { 1.5, 1.5, 1.5, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{
+				node = {
+					children = {
+						{
+							materials = { "::/placeholders/mat/missing_object.mtl", },
+							mesh = "::/placeholders/msh/cube_1x1_lod0.msh",
+							name = "cube_1x1_lod0_1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 500,
+			},
+		},
+		metadata = {
+			availability = {
+				yearFrom = 1,
+				yearTo = 1,
+			},
+			cost = {
+				price = 0,
+			},
+			description = {
+				name = _("menu_ice_1"),
+			},
+			emissions = {
+				noise = {
+					score = 40,
+				},
+				pollution = {
+					score = 25,
+				},
+			},
+			landVehicle = {
+				brakeDeceleration = 2.5,
+				engines = { },
+				friction = 0.02,
+				topSpeed = 0,
+				weightEmpty = 0,
+				weightMaxPayload = 0,
+			},
+			maintenance = {
+				lifespan = 0,
+				runningCosts = 0,
+			},
+			railVehicle = {
+				config = {
+					axles = { },
+					fakeBogies = { },
+				},
+			},
+			seatProvider = {
+				crewModels = { },
+				drivingLicense = "RAIL",
+				seats = {
+					{
+						animation = "driving_upright",
+						crew = true,
+						group = "cube_1x1_lod0_1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.62, -0.85, 1.8, 1, },
+					},
+					{
+						animation = "driving_upright",
+						crew = true,
+						forward = false,
+						group = "cube_1x1_lod0_1",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -7.62, 0.85, 1.8, 1, },
+					},
+				},
+			},
+			soundConfig = {
+				soundSet = {
+					name = "",
+				},
+			},
+			transformatorConfig = {
+				skipFromLod = 1,
+				transformator = {
+					name = "::/vehicle/train/shared/default_train.trf",
+				},
+			},
+			transportVehicle = {
+				carrier = "RAIL",
+				compartments = {
+					{
+						loadConfigs = {
+							{
+								cargoEntry = {
+									capacity = 0,
+									cargoTypeSet = {
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { },
+									},
+									loadIndicator = "",
+									seats = { },
+								},
+								toHide = { },
+							},
+						},
+					},
+				},
+				engineTransportModes = { },
+				filterTags = { },
+				transportModes = { },
+			},
+		},
+		version = 2,
+	}
+end
