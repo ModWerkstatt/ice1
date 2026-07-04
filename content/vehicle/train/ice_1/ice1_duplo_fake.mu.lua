@@ -18,6 +18,7 @@ return {
 	},
 	name = _("ICE1_duplo_fake_name"),
 	desc = _("ICE1_duplo_desc"),
-    groupFileName = "menu_ice1_fake.mdl",
+	groupFileName = "menu_ice1_fake.mdl",
+   filterTags = { "default" },
 }
 end

@@ -12,6 +12,7 @@ return {
 	},
 	name = _("ICE2_name"),
 	desc = _("ICE2_desc"),
-    groupFileName = "menu_ice1.mdl",
+	groupFileName = "menu_ice1.mdl",
+   filterTags = { "default" },
 }
 end
