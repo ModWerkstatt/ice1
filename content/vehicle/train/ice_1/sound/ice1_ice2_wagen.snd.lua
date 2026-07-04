@@ -5,7 +5,7 @@ return {
 	tracks = {
 		{ name = "vehicle/ICE1_ICE2/ICE1_ICE2_Roll.wav", refDist = 20.5 },
 		{ name = "vehicle/train/wheels_ringing2.wav", refDist = 20.0 },
-		{ name = "vehicle/ICE1_ICE2/ICE1_ICE2_Bremse.wav", refDist = 20.0 }
+		{ name = "vehicle/ICE1_ICE2/ICE1_ICE2_bremse.wav", refDist = 20.0 }
 	},
 	events = {
 		openDoors = { names = { "vehicle/ICE1_ICE2/ICE1_ICE2_DoorOpen.wav" }, refDist = 10.0 },	
