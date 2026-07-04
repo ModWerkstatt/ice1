@@ -1424,6 +1424,32 @@ return {
 				weightEmpty = 52000,
 				weightMaxPayload = 0,
 			},
+			extent = { 
+				bbMax = { 13.4943, 1.535, 4.02494, },
+				bbMin = { -13.4943, -1.535, -0.02114, },
+			},
+			lightSourceList = { 
+				lights = {
+					{ 
+						angleMax = 89,
+						angleMin = 9,
+						color = { 1, 0.926131, 0.580392, },
+						fadeOutStart = 600,
+						invertMask = false,
+						length = 13,
+						lightId = "",
+						mask = 32,
+						meshId = "interior",
+						mode = "LIGHT",
+						radius = 3,
+						strength = 20,
+						transf = { 1, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, 0, 0, 3.5, 1, },
+						type = "CYLINDRICAL",
+						visibleFrom = -1,
+						visibleTo = 800,
+					},
+				},
+			},
 			maintenance = { 
 				lifespan = 29220,
 				runningCosts = -1,
