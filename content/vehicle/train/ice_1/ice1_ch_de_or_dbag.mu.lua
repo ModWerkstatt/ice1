@@ -18,7 +18,7 @@ return {
 	},
 	name = _("ICE1_CH-DE_or_DBAG_name"),
 	desc = _("ICE1_desc"),
-	groupFileName = "menu_ice1.mdl",
+	groupFileName = "menu_ice_1.mdl",
    filterTags = { "default" },
 }
 end
