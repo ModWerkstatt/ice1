@@ -1583,7 +1583,7 @@ return {
 			},
 			soundConfig = { 
 				soundSet = { 
-					name = "/ICE1_ICE2_Steuerwagen",
+					name = "sound/ice1_ice2_steuerwagen.snd",
 				},
 			},
 			transformatorConfig = { 
