@@ -533,7 +533,7 @@ return {
 					},
 				},
 				engineTransportModes = { "ELECTRIC_TRAIN", },
-				filterTags = { "default", },
+				filterTags = { },
 				reversible = true,
 				transportModes = { "TRAIN", "ELECTRIC_TRAIN", },
 			},
