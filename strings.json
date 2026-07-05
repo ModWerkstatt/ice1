@@ -3,7 +3,7 @@
 		
 		"Fake": "Activate fake versions?",
 		"option_fake_ice1_desc": "You can choose if fake versions of the ICE 1 and ICE 2 should be hidden (default) or shown in depot.",
-		"menu_ice1": "ICE 1 / ICE 2",
+		"menu_ice_1": "ICE 1 (Class 401) / ICE 2 (Class 402)",
 
 		"ICE1_name": "ICE 1 traffic red (1998)",
 		"ICE1R_name": "ICE 1 LDV (shortened) - traffic red (2021)",
@@ -125,7 +125,7 @@
 
 		"Fake": "Fake-Versionen aktivieren?",
 		"option_fake_ice1_desc": "Schaltet die Fake-Versionen des ICE 1 und ICE 2 ab (Standard) oder an.",
-		"menu_ice1": "ICE 1 / ICE 2",
+		"menu_ice_1": "ICE 1 (BR 401) / ICE 2 (BR 402)",
 
 		"ICE1_name": "ICE 1 - verkehrsrot (1998)",
 		"ICE1R_name": "ICE 1 LDV - verkehrsrot (2021)",
