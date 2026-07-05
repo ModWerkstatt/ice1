@@ -1,3 +1,5 @@
+﻿local soundsetutil = require "::/scripts/soundsetutil.lua"
+
 function data()
 
 local data = soundsetutil.makeSoundSet()
@@ -10,15 +12,15 @@ soundsetutil.addTrackParam01
 				{
 									{ 0.0, 0.9 }, { 0.57, 1.00 }, { 1.0, 1.031 } },
 									{"vehicle", "speed01"})
-									
+
 soundsetutil.addTrackParam01
 (data, "br401_402/schnell.wav", 25.0,
 				{
 									{ 0.00, 0.00 }, { 0.50, 0.00 }, { 1.00, 0.85 } },
 				{
 									{ 0.0, 0.85 }, { 0.50, 0.85 }, { 1.00, 1.10 } },
-									{"vehicle", "speed01"})									
-									
+									{"vehicle", "speed01"})
+
 soundsetutil.addTrackBrake(data, "br401_402/bremse.wav", 25.0, 1.0)
 soundsetutil.addTrackSqueal(data, "br401_402/kurve.wav", 25.0)
 
