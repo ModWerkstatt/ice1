@@ -1,7 +1,7 @@
 function data()
 return {
 	vehicles = {
-		{ name = "ice1_triebkopfR.mdl", forward = true },
+		{ name = "ice1_triebkopfr.mdl", forward = true },
 		{ name = "ice1_avmz801_8_klima.mdl", forward = false },
 		{ name = "ice1_avmz801_4_klima.mdl", forward = false },
 		{ name = "ice1_avmz801_0_klima.mdl", forward = false },
@@ -14,7 +14,7 @@ return {
 		{ name = "ice1_bvmz802_3_klima3.mdl", forward = false },
 		{ name = "ice1_bvmz802_6_klima.mdl", forward = false },
 		{ name = "ice1_bvmz802_8_klima.mdl", forward = false },
-		{ name = "ice1_5_triebkopfR.mdl", forward = false },
+		{ name = "ice1_5_triebkopfr.mdl", forward = false },
 	},
 	name = _("ICE1_vr_name"),
 	desc = _("ICE1_vr_desc"),
