@@ -38,7 +38,7 @@ return {
 				price = 0,
 			},
 			description = {
-				name = _("menu_ice_1"),
+				name = _("menu_ice_1_fake"),
 			},
 			emissions = {
 				noise = {

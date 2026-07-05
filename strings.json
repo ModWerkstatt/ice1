@@ -66,7 +66,7 @@
 		"ICE2_desc": "ICE 2 trains are usually put together with the power cars on the outside, but there are also other mixtures, which in some cases may no longer reach full speed. The ICE 2 sets are now being replaced by the ICE 4.",
     	"ICE2_klima_desc": "ICE 2 trains are usually put together with the power cars on the outside, but there are also other mixtures, which in some cases may no longer reach full speed. Some of the units with green stickers have been traveling around since 2020 to indicate that the train runs on green electricity and protects the climate.",
 
-		"ICE1_fake_menu": "ICE 1 / ICE 2 FAKE",
+		"menu_ice_1_fake": "ICE 1 / ICE 2 - FAKE",
 		"ICE1_fake_name": "ICE 1 - traffic red (1998) FAKE",
 		"ICE1R_fake_name": "ICE 1 LDV (shortened) -traffic red (2021) FAKE",
 		"ICE1_duplo_fake_name": "ICE 1 - Duplo advert (2018) FAKE",
@@ -189,7 +189,7 @@
 		"ICE2_desc": "ICE 2 Züge werden normalerweise mit den Triebköpfen aussen zusammengestellt, es gibt allerdings auch andere Mischungen, die dann teilweise nicht mehr die volle Geschwindigkeit erreichen dürfen. Die ICE 2-Garnituren werden inzwischen durch den ICE 4 abgelöst.",
 		"ICE2_klima_desc": "ICE 2 Züge werden normalerweise mit den Triebköpfen aussen zusammengestellt, es gibt allerdings auch andere Mischungen, die dann teilweise nicht mehr die volle Geschwindigkeit erreichen dürfen. Seit 2020 fahren auch einige der Einheiten mit grüner Beklebung umher, um darauf hinzuweisen, dass die Bahn mit Ökostrom fährt und das Klima schont.",
 
-		"ICE1_fake_menu": "ICE 1 / ICE 2 FAKE",
+		"menu_ice_1_fake": "ICE 1 / ICE 2 - FAKE",
 
 		"ICE1_fake_name": "ICE 1 - verkehrsrot (1998) FAKE",
 		"ICE1R_fake_name": "ICE 1 LDV - verkehrsrot (2021) FAKE",
