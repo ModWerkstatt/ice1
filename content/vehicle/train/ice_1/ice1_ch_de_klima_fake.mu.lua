@@ -6,7 +6,7 @@ return {
 		{ name = "ice1_avmz801_4_klima_fake.mdl", forward = false },
 		{ name = "ice1_avmz801_0_klima_fake.mdl", forward = false },
 		{ name = "ice1_apmbsz803_1_klima_fake.mdl", forward = false },
-		{ name = "ice1_wdmz804_0_klima_fake.mdl", forward = false },
+		{ name = "ice1_wsmz804_0_klima_fake.mdl", forward = false },
 		{ name = "ice1_bvmz802_0_klima_fake.mdl", forward = false },
 		{ name = "ice1_bvmz802_9_klima_fake.mdl", forward = false },
 		{ name = "ice1_bvmz802_3_klima1_fake.mdl", forward = false },

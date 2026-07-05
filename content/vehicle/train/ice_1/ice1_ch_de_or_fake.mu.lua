@@ -6,7 +6,7 @@ return {
 		{ name = "ice1_avmz801_4_or_fake.mdl", forward = false },
 		{ name = "ice1_avmz801_0_or_fake.mdl", forward = false },
 		{ name = "ice1_apmbsz803_1_or_fake.mdl", forward = false },
-		{ name = "ice1_wdmz804_0_or_fake.mdl", forward = false },
+		{ name = "ice1_wsmz804_0_or_fake.mdl", forward = false },
 		{ name = "ice1_bvmz802_0_or_fake.mdl", forward = false },
 		{ name = "ice1_bvmz802_9_or_fake.mdl", forward = false },
 		{ name = "ice1_bvmz802_3_or_fake.mdl", forward = false },
