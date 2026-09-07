@@ -1205,12 +1205,12 @@ return {
 				},
 			},
 			landVehicle = { 
-				brakeDeceleration = 2.5,
+				brakeDeceleration = 2.0,
 				engines = { },
 				friction = 0.02,
 				topSpeed = 77.7778,
 				weightEmpty = 49000,
-				weightMaxPayload = 0,
+				weightMaxPayload = 7000,
 			},
 			extent = { 
 				bbMax = { 13.8729, 1.54074, 4.05559, },
@@ -1617,6 +1617,26 @@ return {
 				},
 				departureDelay = 7000,
 				engineTransportModes = { },
+				entrances = {
+					{ 
+						path = {
+							{ -11.75, -3, 0.1, },
+							{ -11.75, -2, 0.1, },
+							{ -11.75, -1.6, 0.85, },
+							{ -11.75, -1.2, 1.35, },
+							{ -11.75, 0.3, 1.35, },
+						},
+					},
+					{ 
+						path = {
+							{ -11.75, 3, 0.1, },
+							{ -11.75, 2, 0.1, },
+							{ -11.75, 1.6, 0.85, },
+							{ -11.75, 1.2, 1.35, },
+							{ -11.75, -0.3, 1.35, },
+						},
+					},
+				},
 				filterTags = { },
 				reversible = true,
 				transportModes = { "TRAIN", "ELECTRIC_TRAIN", },

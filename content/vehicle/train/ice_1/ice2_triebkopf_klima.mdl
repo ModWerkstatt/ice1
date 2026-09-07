@@ -635,7 +635,7 @@ return {
 				},
 			},
 			landVehicle = { 
-				brakeDeceleration = 2.5,
+				brakeDeceleration = 2.0,
 				engines = {
 					{ 
 						power = 4800,
@@ -646,7 +646,7 @@ return {
 				friction = 0.02,
 				topSpeed = 77.7778,
 				weightEmpty = 77000,
-				weightMaxPayload = 0,
+				weightMaxPayload = 7000,
 			},
 			extent = { 
 				bbMax = { 11.1217, 1.535, 5.91283, },
