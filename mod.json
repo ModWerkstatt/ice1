@@ -2,9 +2,21 @@
     "dependencies": null,
     "incompatibilities": null,
     "modId": "mw_ice_1",
-    "params": null,
+    "params": [
+		{
+            "key": "ice_1_fake",
+            "name": "fake_ice_1",
+            "tooltip": "tooltip_fake",
+            "uiType": "ComboBox",
+            "values": [
+                "No",
+                "Yes"
+            ],
+            "defaultIndex": 0
+        }
+    ],
     "postRunScript": {
-        "fileName": ""
+        "fileName": "mw_ice_1::mod.script@postRunFn"
     },
     "preRunScript": {
         "fileName": ""

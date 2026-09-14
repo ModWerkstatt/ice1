@@ -1,10 +1,13 @@
 {
 	"en": {
 		
-		"Fake": "Activate fake versions?",
-		"option_fake_ice1_desc": "You can choose if fake versions of the ICE 1 and ICE 2 should be hidden (default) or shown in depot.",
 		"menu_ice_1": "ICE 1 (Class 401) / ICE 2 (Class 402)",
-
+		
+        "fake_ice_1": "Activate fake engines?",
+        "tooltip_fake": "Should the fake trains (Pantos at the bottom, no lights, no driver) be activated?",
+		
+		"fake": "Fake - ",
+		
 		"ICE1_name": "ICE 1 traffic red (1998)",
 		"ICE1R_name": "ICE 1 LDV (shortened) - traffic red (2021)",
 		"ICE1_duplo_name": "ICE 1 - Duplo advert (2018)",
@@ -66,7 +69,6 @@
 		"ICE2_desc": "ICE 2 trains are usually put together with the power cars on the outside, but there are also other mixtures, which in some cases may no longer reach full speed. The ICE 2 sets are now being replaced by the ICE 4.",
     	"ICE2_klima_desc": "ICE 2 trains are usually put together with the power cars on the outside, but there are also other mixtures, which in some cases may no longer reach full speed. Some of the units with green stickers have been traveling around since 2020 to indicate that the train runs on green electricity and protects the climate.",
 
-		"menu_ice_1_fake": "ICE 1 / ICE 2 - FAKE",
 		"ICE1_fake_name": "ICE 1 - traffic red (1998) FAKE",
 		"ICE1R_fake_name": "ICE 1 LDV (shortened) -traffic red (2021) FAKE",
 		"ICE1_duplo_fake_name": "ICE 1 - Duplo advert (2018) FAKE",
@@ -123,9 +125,12 @@
 	},
 	"de": {
 
-		"Fake": "Fake-Versionen aktivieren?",
-		"option_fake_ice1_desc": "Schaltet die Fake-Versionen des ICE 1 und ICE 2 ab (Standard) oder an.",
 		"menu_ice_1": "ICE 1 (BR 401) / ICE 2 (BR 402)",
+		
+        "fake_ice_1": "Fake-Versionen aktivieren?",
+        "tooltip_fake": "Sollen die Fake-Triebzüge (Pantos unten, kein Licht, kein Fahrer) aktiviert werden?",
+
+		"fake": "Fake - ",
 
 		"ICE1_name": "ICE 1 - verkehrsrot (1998)",
 		"ICE1R_name": "ICE 1 LDV - verkehrsrot (2021)",
@@ -188,8 +193,6 @@
 		"ICE1_duplo_desc": "Im Jahr 2018 wurde ein ICE 1-Triebzug an den Triebköpfen mit Werbung der Firma Ferrero für die Marke Duplo foliert als \"Die wahrscheinlich schnellste Praline auf deutschen Schienen\".",
 		"ICE2_desc": "ICE 2 Züge werden normalerweise mit den Triebköpfen aussen zusammengestellt, es gibt allerdings auch andere Mischungen, die dann teilweise nicht mehr die volle Geschwindigkeit erreichen dürfen. Die ICE 2-Garnituren werden inzwischen durch den ICE 4 abgelöst.",
 		"ICE2_klima_desc": "ICE 2 Züge werden normalerweise mit den Triebköpfen aussen zusammengestellt, es gibt allerdings auch andere Mischungen, die dann teilweise nicht mehr die volle Geschwindigkeit erreichen dürfen. Seit 2020 fahren auch einige der Einheiten mit grüner Beklebung umher, um darauf hinzuweisen, dass die Bahn mit Ökostrom fährt und das Klima schont.",
-
-		"menu_ice_1_fake": "ICE 1 / ICE 2 - FAKE",
 
 		"ICE1_fake_name": "ICE 1 - verkehrsrot (1998) FAKE",
 		"ICE1R_fake_name": "ICE 1 LDV - verkehrsrot (2021) FAKE",
