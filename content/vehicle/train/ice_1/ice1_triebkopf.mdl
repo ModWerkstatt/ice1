@@ -497,7 +497,7 @@ return {
 			},
 			soundConfig = {
 				soundSet = {
-					name = "", --"name = "", -- name = "sound/ice1_ice2_triebkopf.snd",
+					name = "::/vehicle/waggon/shared/sound/waggon_modern.snd", --"name = "sound/ice1_ice2_triebkopf.snd",
 				},
 			},
 			transformatorConfig = {

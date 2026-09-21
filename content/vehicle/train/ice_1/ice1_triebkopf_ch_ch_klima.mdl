@@ -497,7 +497,7 @@ return {
 			},
 			soundConfig = { 
 				soundSet = { 
-					name = "", -- name = "sound/ice1_ice2_triebkopf.snd",
+					name = "sound/ice1_ice2_triebkopf.snd",
 				},
 			},
 			transformatorConfig = { 

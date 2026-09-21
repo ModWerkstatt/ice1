@@ -331,7 +331,7 @@ return {
 			},
 			soundConfig = { 
 				soundSet = { 
-					name = "",
+					name = "::/vehicle/waggon/shared/sound/waggon_modern.snd",
 				},
 			},
 			transformatorConfig = { 
