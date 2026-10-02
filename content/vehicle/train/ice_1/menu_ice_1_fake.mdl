@@ -70,6 +70,7 @@ return {
 				crewModels = { },
 				drivingLicense = "RAIL",
 				seats = { },
+			},
 			soundConfig = {
 				soundSet = {
 					name = "",
