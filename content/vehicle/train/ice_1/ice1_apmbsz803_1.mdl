@@ -1850,7 +1850,7 @@ return {
 				},
 				filterTags = { },
 				loadSpeed = 2,
-				comfortFactor = -1,
+				comfortFactor = 0.9,
 				reversible = true,
 				transportModes = { "TRAIN", "ELECTRIC_TRAIN", },
 			},
