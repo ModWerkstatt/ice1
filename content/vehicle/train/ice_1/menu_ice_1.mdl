@@ -69,22 +69,7 @@ return {
 			seatProvider = {
 				crewModels = { },
 				drivingLicense = "RAIL",
-				seats = {
-					{
-						animation = "driving_upright",
-						crew = true,
-						group = "cube_1x1_lod0_1",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.62, -0.85, 1.8, 1, },
-					},
-					{
-						animation = "driving_upright",
-						crew = true,
-						forward = false,
-						group = "cube_1x1_lod0_1",
-						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -7.62, 0.85, 1.8, 1, },
-					},
-				},
-			},
+				seats = { },
 			soundConfig = {
 				soundSet = {
 					name = "",
@@ -98,26 +83,6 @@ return {
 			},
 			transportVehicle = {
 				carrier = "RAIL",
-				compartments = {
-					{
-						loadConfigs = {
-							{
-								cargoEntry = {
-									capacity = 0,
-									cargoTypeSet = {
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { },
-									},
-									loadIndicator = "",
-									seats = { },
-								},
-								toHide = { },
-							},
-						},
-					},
-				},
 				engineTransportModes = { },
 				filterTags = { },
 				transportModes = { },
